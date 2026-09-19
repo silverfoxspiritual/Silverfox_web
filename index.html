@@ -618,69 +618,74 @@
             </form>
         </section>
 
-        <!-- ================= PAGE 5: PRODUCTS ================= -->
+        <!-- ================= PAGE 5: PRODUCTS / SHOP ================= -->
         <section id="page-products" class="page-content hidden space-y-12">
-            <div class="text-center max-w-2xl mx-auto space-y-3">
-                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold gold-gradient-text">SPIRITUAL SHOP</h2>
-                <p class="text-gray-300 text-sm">Empowering tools, custom spiritual guides, and merchandise.</p>
+            <div class="text-center max-w-3xl mx-auto space-y-4">
+                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold gold-gradient-text">OFFICIAL SHOP & DIGITAL STORE</h2>
+                <p class="text-gray-300 text-base leading-relaxed">
+                    Explore our complete official collection including digital downloads, custom oracle decks, and official t-shirts hosted on Payhip and Linktree.
+                </p>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product Card 1 -->
-                <div class="glass-panel rounded-2xl overflow-hidden border border-gold-500/30 flex flex-col justify-between group">
-                    <div class="p-6 space-y-4">
-                        <div class="w-full aspect-video rounded-xl bg-cosmic-900 border border-gray-800 flex items-center justify-center text-gold-400 text-4xl group-hover:scale-105 transition-transform">
-                            <i class="fa-solid fa-book-sparkles text-gold-300"></i>
+            <!-- Main Shop Destinations -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Payhip Shop Card -->
+                <div class="glass-panel p-8 rounded-2xl border border-gold-500/40 hover:border-gold-300 transition-all hover:shadow-gold-glow flex flex-col justify-between space-y-6 text-center group">
+                    <div class="space-y-4">
+                        <div class="w-16 h-16 rounded-2xl bg-gold-500/20 border border-gold-400/40 flex items-center justify-center text-gold-300 text-3xl mx-auto group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-store"></i>
                         </div>
-                        <h3 class="font-cinzel text-xl font-bold text-white">Clarity Spiritual Guidebook</h3>
-                        <p class="text-xs text-gray-300 leading-relaxed">
-                            A digital workbook designed to help you identify relationship energy, clear confusion, and build intuitive awareness.
+                        <h3 class="font-cinzel text-2xl font-bold text-white group-hover:text-gold-300 transition-colors">Payhip Store</h3>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            Visit our official online shop to purchase digital downloads, oracle decks, and apparel directly.
                         </p>
-                        <span class="block font-cinzel font-bold text-gold-400 text-lg">$14.99</span>
                     </div>
-                    <div class="p-6 pt-0">
-                        <button onclick="openProductModal('Clarity Spiritual Guidebook', '$14.99', 'Digital PDF guide packed with journal prompts, tarot quick-reference cheat sheets, and energy grounding exercises.')" class="w-full bg-cosmic-800 hover:bg-gold-500 hover:text-cosmic-900 border border-gold-500/40 text-gold-300 font-bold py-2.5 rounded-xl text-xs font-cinzel uppercase tracking-wider transition-all">
-                            View Details
-                        </button>
-                    </div>
+                    <a href="https://payhip.com/silverfoxspiritual" target="_blank" rel="noopener noreferrer" class="w-full bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-300 text-cosmic-900 font-bold py-3.5 rounded-xl font-cinzel text-xs uppercase tracking-wider transition-all shadow-gold-glow inline-block">
+                        Visit Payhip Shop <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+                    </a>
                 </div>
 
-                <!-- Product Card 2 -->
-                <div class="glass-panel rounded-2xl overflow-hidden border border-gold-500/30 flex flex-col justify-between group">
-                    <div class="p-6 space-y-4">
-                        <div class="w-full aspect-video rounded-xl bg-cosmic-900 border border-gray-800 flex items-center justify-center text-cyan-400 text-4xl group-hover:scale-105 transition-transform">
-                            <i class="fa-solid fa-gem text-cyan-300"></i>
+                <!-- Linktree Store Card -->
+                <div class="glass-panel p-8 rounded-2xl border border-cyan-500/40 hover:border-cyan-300 transition-all hover:shadow-cyan-glow flex flex-col justify-between space-y-6 text-center group">
+                    <div class="space-y-4">
+                        <div class="w-16 h-16 rounded-2xl bg-cyan-500/20 border border-cyan-400/40 flex items-center justify-center text-cyan-300 text-3xl mx-auto group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-tree"></i>
                         </div>
-                        <h3 class="font-cinzel text-xl font-bold text-white">Intuitive Protection Crystal Kit</h3>
-                        <p class="text-xs text-gray-300 leading-relaxed">
-                            Hand-selected set of raw Pyrite, Clear Quartz, Selenite, and Black Tourmaline for energetic shielding and clarity.
+                        <h3 class="font-cinzel text-2xl font-bold text-white group-hover:text-cyan-300 transition-colors">Linktree Hub</h3>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            Access our official Linktree for a full list of all active store links, social platforms, and digital offerings.
                         </p>
-                        <span class="block font-cinzel font-bold text-cyan-300 text-lg">$28.00</span>
                     </div>
-                    <div class="p-6 pt-0">
-                        <button onclick="openProductModal('Intuitive Protection Crystal Kit', '$28.00', 'Includes 4 charged crystals, velvet pouch, and a personalized ritual card written by Silver Fox Spiritual.')" class="w-full bg-cosmic-800 hover:bg-cyan-500 hover:text-cosmic-900 border border-cyan-500/40 text-cyan-300 font-bold py-2.5 rounded-xl text-xs font-cinzel uppercase tracking-wider transition-all">
-                            View Details
-                        </button>
+                    <a href="https://linktr.ee/silverfoxspiritual" target="_blank" rel="noopener noreferrer" class="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-bold py-3.5 rounded-xl font-cinzel text-xs uppercase tracking-wider transition-all shadow-cyan-glow inline-block">
+                        Open Linktree Hub <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Offering Categories Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto pt-6">
+                <div class="glass-panel p-6 rounded-2xl border border-gold-500/20 text-center space-y-3">
+                    <div class="w-12 h-12 rounded-xl bg-gold-500/20 border border-gold-400/30 flex items-center justify-center text-gold-300 text-xl mx-auto">
+                        <i class="fa-solid fa-file-arrow-down"></i>
                     </div>
+                    <h4 class="font-cinzel text-lg font-bold text-white">Digital Downloads</h4>
+                    <p class="text-xs text-gray-300">Spiritual workbooks, journal guides, and audio frequency transmissions.</p>
                 </div>
 
-                <!-- Product Card 3 -->
-                <div class="glass-panel rounded-2xl overflow-hidden border border-gold-500/30 flex flex-col justify-between group">
-                    <div class="p-6 space-y-4">
-                        <div class="w-full aspect-video rounded-xl bg-cosmic-900 border border-gray-800 flex items-center justify-center text-purple-400 text-4xl group-hover:scale-105 transition-transform">
-                            <i class="fa-solid fa-shirt text-purple-300"></i>
-                        </div>
-                        <h3 class="font-cinzel text-xl font-bold text-white">Silver Fox Spiritual Tee</h3>
-                        <p class="text-xs text-gray-300 leading-relaxed">
-                            Premium cosmic black apparel featuring the emblem and signature "Clarity Not Confusion" tagline.
-                        </p>
-                        <span class="block font-cinzel font-bold text-purple-300 text-lg">$32.00</span>
+                <div class="glass-panel p-6 rounded-2xl border border-cyan-500/20 text-center space-y-3">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/20 border border-cyan-400/30 flex items-center justify-center text-cyan-300 text-xl mx-auto">
+                        <i class="fa-solid fa-layer-group"></i>
                     </div>
-                    <div class="p-6 pt-0">
-                        <button onclick="openProductModal('Silver Fox Spiritual Tee', '$32.00', 'High quality 100% combed cotton tee with metallic gold celestial print. Available in S through 3XL.')" class="w-full bg-cosmic-800 hover:bg-purple-500 hover:text-white border border-purple-500/40 text-purple-300 font-bold py-2.5 rounded-xl text-xs font-cinzel uppercase tracking-wider transition-all">
-                            View Details
-                        </button>
+                    <h4 class="font-cinzel text-lg font-bold text-white">Oracle Decks</h4>
+                    <p class="text-xs text-gray-300">Custom channeled card decks designed to unlock deeper intuitive insight.</p>
+                </div>
+
+                <div class="glass-panel p-6 rounded-2xl border border-purple-500/20 text-center space-y-3">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/20 border border-purple-400/30 flex items-center justify-center text-purple-300 text-xl mx-auto">
+                        <i class="fa-solid fa-shirt"></i>
                     </div>
+                    <h4 class="font-cinzel text-lg font-bold text-white">Official T-Shirts</h4>
+                    <p class="text-xs text-gray-300">High-quality cosmic apparel featuring our signature tagline and logo.</p>
                 </div>
             </div>
         </section>
@@ -838,19 +843,6 @@
 
     </main>
 
-    <!-- Product Info Modal -->
-    <div id="product-modal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
-        <div class="glass-panel rounded-2xl border border-gold-400 max-w-md w-full p-8 space-y-6 text-center shadow-gold-glow">
-            <h3 id="modal-product-title" class="font-cinzel text-2xl font-bold text-white">Product Name</h3>
-            <span id="modal-product-price" class="block font-cinzel text-xl text-gold-400 font-bold">$0.00</span>
-            <p id="modal-product-desc" class="text-sm text-gray-300 leading-relaxed">Product description text goes here.</p>
-            <div class="flex gap-4">
-                <button onclick="closeProductModal()" class="w-1/2 border border-gray-600 text-gray-300 py-3 rounded-xl font-cinzel text-xs uppercase">Close</button>
-                <button onclick="alert('Item added to inquiry list! Contact us or book a reading to finalize ordering.')" class="w-1/2 bg-gold-500 text-cosmic-900 font-bold py-3 rounded-xl font-cinzel text-xs uppercase">Inquire / Buy</button>
-            </div>
-        </div>
-    </div>
-
     <!-- Footer -->
     <footer class="glass-panel border-t border-gold-500/20 mt-12 py-8">
         <div class="max-w-7xl mx-auto px-4 text-center space-y-4">
@@ -899,18 +891,6 @@
                     break;
                 }
             }
-        }
-
-        // Product Modal Handlers
-        function openProductModal(title, price, description) {
-            document.getElementById('modal-product-title').innerText = title;
-            document.getElementById('modal-product-price').innerText = price;
-            document.getElementById('modal-product-desc').innerText = description;
-            document.getElementById('product-modal').classList.remove('hidden');
-        }
-
-        function closeProductModal() {
-            document.getElementById('product-modal').classList.add('hidden');
         }
 
         // Helper function for AJAX Form Handling
